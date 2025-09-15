@@ -1,0 +1,51 @@
+artifact_path: /mnt/c/Users/m_bar/dsfs_ft/PROJETFIRE/MLFLOW-FIRE/mlruns/1/models/m-cf5bbec8f3824cb18b92109da6674422/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.18
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.3.2
+model_id: m-cf5bbec8f3824cb18b92109da6674422
+model_size_bytes: 124358
+model_uuid: m-cf5bbec8f3824cb18b92109da6674422
+prompts: null
+run_id: a8346c1461d040ee893930e49ca87cd3
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "moyenne precipitations mois", "required":
+    true}, {"type": "double", "name": "moyenne temperature mois", "required": false},
+    {"type": "double", "name": "moyenne evapotranspiration mois", "required": false},
+    {"type": "double", "name": "moyenne vitesse vent ann\u00e9e", "required": false},
+    {"type": "double", "name": "moyenne vitesse vent mois", "required": false}, {"type":
+    "double", "name": "moyenne temperature ann\u00e9e", "required": false}, {"type":
+    "double", "name": "RR", "required": true}, {"type": "double", "name": "UM", "required":
+    true}, {"type": "double", "name": "ETPMON", "required": true}, {"type": "double",
+    "name": "TN", "required": true}, {"type": "double", "name": "TX", "required":
+    true}, {"type": "long", "name": "Nombre de feu par an", "required": true}, {"type":
+    "long", "name": "Nombre de feu par mois", "required": true}, {"type": "double",
+    "name": "jours_sans_pluie", "required": true}, {"type": "double", "name": "jours_TX_sup_30",
+    "required": false}, {"type": "double", "name": "ETPGRILLE_7j", "required": false},
+    {"type": "double", "name": "compteur jours vers prochain feu", "required": false},
+    {"type": "double", "name": "compteur feu log", "required": false}, {"type": "long",
+    "name": "Ann\u00e9e", "required": true}, {"type": "long", "name": "Mois", "required":
+    true}, {"type": "double", "name": "moyenne precipitations ann\u00e9e", "required":
+    true}, {"type": "double", "name": "moyenne evapotranspiration ann\u00e9e", "required":
+    false}]'
+  outputs: '[{"type": "float", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-09-15 17:21:43.471842'

@@ -1,0 +1,22 @@
+artifact_path: /mnt/c/Users/m_bar/dsfs_ft/PROJETFIRE/MLFLOW-FIRE/mlruns/1/models/m-79b095f50df14fbf93c31313b194c987/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.18
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.3.2
+model_id: m-79b095f50df14fbf93c31313b194c987
+model_size_bytes: 122743
+model_uuid: m-79b095f50df14fbf93c31313b194c987
+prompts: null
+run_id: 36ab15c4e4f04003b1d43a044e8c454d
+utc_time_created: '2025-09-15 16:58:25.822986'

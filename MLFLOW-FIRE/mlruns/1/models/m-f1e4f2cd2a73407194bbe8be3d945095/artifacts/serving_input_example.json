@@ -1,0 +1,54 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "moyenne precipitations mois",
+      "moyenne temperature mois",
+      "moyenne evapotranspiration mois",
+      "moyenne vitesse vent ann\u00e9e",
+      "moyenne vitesse vent mois",
+      "moyenne temperature ann\u00e9e",
+      "RR",
+      "UM",
+      "ETPMON",
+      "TN",
+      "TX",
+      "Nombre de feu par an",
+      "Nombre de feu par mois",
+      "jours_sans_pluie",
+      "jours_TX_sup_30",
+      "ETPGRILLE_7j",
+      "compteur jours vers prochain feu",
+      "compteur feu log",
+      "Ann\u00e9e",
+      "Mois",
+      "moyenne precipitations ann\u00e9e",
+      "moyenne evapotranspiration ann\u00e9e"
+    ],
+    "data": [
+      [
+        1.14,
+        9.33,
+        4.03,
+        NaN,
+        4.63,
+        11.13,
+        0.0,
+        58.0,
+        4.7,
+        11.4,
+        15.5,
+        4,
+        0,
+        1.0,
+        0.0,
+        4.057142857142858,
+        93.0,
+        4.543294782270004,
+        2008,
+        4,
+        1.35,
+        3.77
+      ]
+    ]
+  }
+}
